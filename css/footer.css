@@ -1,0 +1,22 @@
+.duvidas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    flex-grow: 1;
+    width: 100vw;
+}
+.duvidas-container input{
+    
+    width: 30%;
+}
+
+.container-endereco-mail{
+    display: flex;
+    background-color: bisque;
+    width: 100vw;
+}
+.container-endereco-mail img{
+    width: 15%;
+
+}
