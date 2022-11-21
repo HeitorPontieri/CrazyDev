@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    background-color: #400101;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.logo p{
+    font-family: 'Libre Baskerville', serif;
+    color: white; 
+    font-size: 1.7rem;
+    height: 15%;
+    
+
+    
+}
+
+.logo img{
+    width: 4.5%;
+}
+
+
+.duvidas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    flex-grow: 1;
+    width: 100vw;
+}
+.duvidas-container input{
+    
+    
+}
+
+#mensagem-input{
+    height: 40%;
+}
+
