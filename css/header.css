@@ -1,17 +1,23 @@
+header{
+    background-color: #400101;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
 .logo{
     display: flex;
-    background-color: #400101;
+    gap: 15px;
     flex-direction: row;
     align-items: center;
-  
+    padding-left: 16px;
 }
 .logo p{
     font-family: 'Libre Baskerville', serif;
     color: white; 
-    font-size: 1.3vw;
-    height: 15%;
+    font-size: 1.3rem;
+    width: 25%;
 }
 
 .logo img{
-    width: 4.5%;
+    width: 25%;
 }

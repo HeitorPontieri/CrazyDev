@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +9,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd40ade05d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
     <title>Buon Appetito</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="./img/pizza_logo.png" alt="">
-            <p>Buon Appetito</p> 
+            <p>Buon Appetito</p>
         </div>
     </header>
     <main>
+        <section></section>
+        <section></section>
+        <section></section>
         <section></section>
     </main>
     <footer>
         <div class="duvidas-container">
             <input type="text" placeholder="Seu nome">
-            <input type="number" name="telefone" id="telefone" placeholder="Telefone">
-            <input type="number" name="celular" id="celular" placeholder="Celular">
+            <div class="numbers-container">
+                <input type="number" name="telefone" id="telefone" placeholder="Telefone">
+                <input type="number" name="celular" id="celular" placeholder="Celular">
+            </div>
             <input type="email" name="email" id="email" placeholder="Email">
             <select name="duvida-sugestao" id="duvida-sugestao">
                 <option value="">Sugestão</option>
                 <option value="">Crítica</option>
             </select>
-            <input type="text" placeholder="Mensagem" id="mensagem-input">
+            <input class="message" type="text" placeholder="Mensagem" id="mensagem-input">
         </div>
         <div class="container-endereco-mail">
-            <div>
-                <img src="./img/icon-endereco.png" alt="">
+            <div class="infos-container">
+                <i class="fa-solid fa-location-dot icon-infos"></i> 
                 <p>Luis Carlos Berrini, nº 666</p>
             </div>
-            <div>
-                <img src="./img/icon-email.jpg" alt="">
+            <div class="infos-container">
+                <i class="fa-solid fa-envelope icon-infos"></i>
                 <p>Buonappetito@gmail.com</p>
             </div>
         </div>
-        
     </footer>
 </body>
+
 </html>

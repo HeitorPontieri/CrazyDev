@@ -1,22 +1,67 @@
-.duvidas-container{
+footer{
+    background-color: #400101;
+}
+
+.numbers-container{
     display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+.duvidas-container{
+    padding-top: 70px;
+    display: flex;
+    gap: 20px;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
-    flex-grow: 1;
-    width: 100vw;
+    justify-content: center;
+    padding-bottom: 116px;
+    
+}
+.message{
+    min-height: 190px;
 }
 .duvidas-container input{
     
-    width: 30%;
+    display: flex;
+    border: none;
+    width: 70%;
+    height: 62px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-endereco-mail{
+.duvidas-container select{
+    
     display: flex;
-    background-color: bisque;
-    width: 100vw;
+    border: none;
+    width: 70%;
+    height: 62px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.container-endereco-mail img{
-    width: 15%;
+.container-endereco-mail{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 86px;
+    padding-bottom: 30px;
+    
+}
+.infos-container{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.infos-container p {
+    font-family: 'Libre Baskerville', serif;
+
+}
+.icon-infos{
+
+
+    font-size: 2rem;
 
 }
