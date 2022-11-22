@@ -20,10 +20,13 @@ footer{
 }
 .message{
     min-height: 190px;
+    width: 70%;
+    resize: none;
+    font-family: 'Libre Baskerville', serif;
 }
+
 .duvidas-container input{
-    
-    display: flex;
+    font-family: 'Libre Baskerville', serif;
     border: none;
     width: 70%;
     height: 62px;
@@ -31,23 +34,29 @@ footer{
 }
 
 .duvidas-container select{
-    
-    display: flex;
+    font-family: 'Libre Baskerville', serif;
     border: none;
     width: 70%;
     height: 62px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/*********************************************************/
+
 .container-endereco-mail{
-    color: #fff;
+
     display: flex;
     flex-direction: column;
     gap: 18px;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding-left: 86px;
+}
+
+.infos-gerais{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding-bottom: 30px;
-    
+
 }
 .infos-container{
     display: flex;
@@ -55,13 +64,41 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.infos-container p {
+.infos-gerais p {
     font-family: 'Libre Baskerville', serif;
-
+    color: #fff;
 }
+
 .icon-infos{
 
+    font-size: 2rem;    
+    color: #fff;
 
-    font-size: 2rem;
+}
+.redes-sociais{
+
+    display: flex;
+    gap: 20px;
+
+}
+.geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    border: solid 2px #fff;
+}
+
+@media(max-width: 790px){
+
+    .infos-gerais p{
+
+        font-size: 0.75rem;
+
+    }
 
 }

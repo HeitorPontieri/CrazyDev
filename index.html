@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="./img/pizza_logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd40ade05d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -30,7 +31,7 @@
         <section></section>
     </main>
     <footer>
-        <div class="duvidas-container">
+        <form class="duvidas-container">
             <input type="text" placeholder="Seu nome">
             <div class="numbers-container">
                 <input type="number" name="telefone" id="telefone" placeholder="Telefone">
@@ -41,16 +42,27 @@
                 <option value="">Sugestão</option>
                 <option value="">Crítica</option>
             </select>
-            <input class="message" type="text" placeholder="Mensagem" id="mensagem-input">
-        </div>
-        <div class="container-endereco-mail">
-            <div class="infos-container">
-                <i class="fa-solid fa-location-dot icon-infos"></i> 
-                <p>Luis Carlos Berrini, nº 666</p>
+            <textarea class="message" name="message" placeholder="Mensagem" id="" cols="01" rows="0"></textarea>
+        </form>
+        <div class="infos-gerais">
+            <div class="container-endereco-mail">
+                <div class="infos-container">
+                    <i class="fa-solid fa-location-dot icon-infos"></i>
+                    <p>Luis Carlos Berrini, nº 666</p>
+                </div>
+                <div class="infos-container">
+                    <i class="fa-solid fa-envelope icon-infos"></i>
+                    <p>Buonappetito@gmail.com</p>
+                </div>
             </div>
-            <div class="infos-container">
-                <i class="fa-solid fa-envelope icon-infos"></i>
-                <p>Buonappetito@gmail.com</p>
+            <p class="copyright">
+                Copyright © 2022 | CrazyDevs
+            </p>
+            <div class="redes-sociais">
+                <i class="fa-brands fa-twitter icon-infos geral"></i>
+                <i class="fa-brands fa-facebook-f icon-infos geral"></i>
+                <i class="fa-brands fa-instagram icon-infos geral"></i>
+                <i class="fa-brands fa-youtube icon-infos geral"></i>
             </div>
         </div>
     </footer>
