@@ -5,7 +5,7 @@ footer{
 .numbers-container{
     display: flex;
     gap: 20px;
-    width: 70%;
+    width: 55%;
 }
 
 .duvidas-container{
@@ -20,7 +20,7 @@ footer{
 }
 .message{
     min-height: 190px;
-    width: 70%;
+    width: 55%;
     resize: none;
     font-family: 'Libre Baskerville', serif;
 }
@@ -28,7 +28,7 @@ footer{
 .duvidas-container input{
     font-family: 'Libre Baskerville', serif;
     border: none;
-    width: 70%;
+    width: 55%;
     height: 62px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -36,7 +36,7 @@ footer{
 .duvidas-container select{
     font-family: 'Libre Baskerville', serif;
     border: none;
-    width: 70%;
+    width: 55%;
     height: 62px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -86,7 +86,7 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    border-radius: 50%;
+    border-radius: 55%;
     align-items: center;
     height: 48px;
     width: 48px;
@@ -97,7 +97,38 @@ footer{
 
     .infos-gerais p{
 
-        font-size: 0.75rem;
+        font-size: 1rem;
+
+    }
+    .fa-location-dot{
+
+        display: none;
+
+    }
+    .location{
+
+        padding-bottom: 100px;
+
+    }
+    .infos-gerais{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    .envelope{
+
+        display: none;
+
+    }
+    .duvidas-container{
+
+        padding-bottom: 10px;
+
+    }
+    .copyright{
+
+        padding-bottom: 50px;
 
     }
 
