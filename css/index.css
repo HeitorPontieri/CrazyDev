@@ -1,0 +1,28 @@
+section{
+
+    overflow: auto;
+
+}
+.linha{
+
+    height: 1px;
+    width:20%;
+    background-color: #400101;
+
+}
+.titulo{
+
+    font-family: 'Libre Baskerville', serif;
+    color: #400101;
+    font-weight: 100;
+    font-size: 4rem;
+
+}
+.titulo-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}

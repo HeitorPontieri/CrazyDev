@@ -8,12 +8,12 @@
     <link rel="shortcut icon" href="./img/pizza_logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:wght@300;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd40ade05d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
     <script src="./js/index.js" defer type="module"></script>
     <title>Buon Appetito</title>
 </head>
@@ -26,16 +26,36 @@
         </div>
     </header>
     <main>
-        <section>
-            <button class="button">button1</button>
-            <button class="button2">button2</button>
-            
-            
-
+        <button class="button">button1</button>
+        <button class="button2">button2</button>
+        <section id="pizzas">
+            <div class="titulo-container">
+                <div class="linha"></div>
+                <h2 class="titulo">Pizzas</h2>
+                <div class="linha"></div>
+            </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="bebidas">
+            <div class="titulo-container">
+                <div class="linha"></div>
+                <h2 class="titulo">Bebidas</h2>
+                <div class="linha"></div>
+            </div>
+        </section>
+        <section id="favoritas">
+            <div class="titulo-container">
+                <div class="linha"></div>
+                <h2 class="titulo">Favoritas</h2>
+                <div class="linha"></div>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="titulo-container">
+                <div class="linha"></div>
+                <h2 class="titulo">Serviços</h2>
+                <div class="linha"></div>
+            </div>
+        </section>
     </main>
     <footer>
         <form class="duvidas-container">
@@ -47,7 +67,7 @@
             <input type="email" name="email" id="email" placeholder="Email">
             <select name="marcas" id="marcas">
                 <option value="sugestao">Sugestão</option>
-                <option value="critica" >Crítica</option>
+                <option value="critica">Crítica</option>
             </select>
             <textarea class="message" name="message" placeholder="Mensagem" id="" cols="01" rows="0"></textarea>
         </form>

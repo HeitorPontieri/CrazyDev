@@ -1,4 +1,5 @@
 'use strict'
+
 var escolha = "sugestao"
 
 const select = document.getElementById('marcas')
@@ -12,8 +13,11 @@ const value = select.options[select.selectedIndex].value;
 
 select.addEventListener('change', function () {
     escolha = select.value
-    console.log(escolha);
+    console.log(escolha)
 })
+console.log(escolha)
+
+
 button.addEventListener('click', function () {
 
     if (confirm('vc quer realmente fazer isso?')) {
