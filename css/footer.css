@@ -21,21 +21,17 @@ footer{
 .message{
     min-height: 190px;
     width: 55%;
-    resize: none;
-    font-family: 'Libre Baskerville', serif;
+    
 }
 
 .duvidas-container input{
-    font-family: 'Libre Baskerville', serif;
-    border: none;
     width: 55%;
     height: 62px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .duvidas-container select{
-    font-family: 'Libre Baskerville', serif;
-    border: none;
+    
     width: 55%;
     height: 62px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -56,6 +52,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     padding-bottom: 30px;
+    padding-top: 30px;
 
 }
 .infos-container{

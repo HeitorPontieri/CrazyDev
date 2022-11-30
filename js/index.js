@@ -34,7 +34,13 @@ button2.addEventListener('click', function () {
 
 })
 
+console.log(window.location.href);
 
+if (window.location.href == 'http://127.0.0.1:5500/index.html/admin') {
+    
+    window.location.href = 'http://127.0.0.1:5500/admin/index.html'
+
+}
 
 
 
